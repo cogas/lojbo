@@ -1,0 +1,42 @@
+﻿//これは、la .az. からもらった解説です。ki'e .az.
+
+Definitions for Lojban words are typically written in a form which may be misleading to non-native speakers.  Consider a typical entry:
+
+
+bangu: x1 is a/the language/dialect used by x2 to express/communicate x3
+
+
+This entry is in what we might call template form: an English sentence with blanks for noun phrases.  It’s easy to get the impression that this is all that {bangu} means; that it’s a sort of shorthand for the English sentence, and as Lojban speakers we decide what objects to fill in the blanks with and that’s that.  However, this is not the best way to understand the meaning of {bangu}.  Instead the template sentence is a tool the reader can use to get a sense of the underlying truth-function P associated with {bangu}.  This truth-function is the nucleus around which the various meanings and uses of {bangu} orbit.
+
+
+What’s important is not the template sentence, but the function P that it suggests.
+
+
+What do I mean by that, exactly?  One way to think of a content word like {bangu} is as a cloud of related meanings.  We draw out the meaning we want to use by combining the content word in regular ways with certain structure words.  These clouds of meaning include not just the template English sentence, but also the various noun phrases involved, the act of performing the predicate, the property of something satisfying one of the blank places in the predicate, the idea of the predicate, various stages in the process of the predicate, and many other things.  What ties all of these ideas together is the predicate associated with {bangu}: the truth-function P: UxUxU -> {T, F, M} from the set* of ordered triples of all nouns** into the set of True, False, and Meaningless.  The reader tries to get a sense of what values will make this function true by substituting possibilities into the appropriate slots in the English template, and checking to see if the resulting sentence is true.  (Of course, this never well-defines P.  Hopefully different speakers’ interpretations of P will agree enough that miscommunications are rare.)
+
+
+For example, if we take the values ‘English’, ‘myself’, and ‘this explanation’ and place them in order into the empty slots in the template form definition of {bangu}, we get: “English is a/the language/dialect used by myself to express/communicate this explanation”, which seems both meaningful and true.  Therefore I would say, and hopefully you would agree, that P(English, myself, this explanation) = True.  This partially defines P.
+
+
+So what about the meaning of {bangu} when we use it in a Lojban sentence?  This depends on the way we use it, but the meaning is always related to the truth-function P associated with {bangu}.  The simplest use is as the main selbri of a sentence:
+
+
+(1) le glibau cu bangu mi le ti ve ciksi
+
+
+({le glibau}, {mi}, and {le ti ve ciksi} are the Lojban phrases for ‘English’, ‘myself’, and ‘this explanation’.)
+
+
+This is the closest that we get in actual use to the truth-function P; when a content word is used as a main selbri, we are talking about the value or values of it’s truth-function P for certain inputs.  Here specifically, we are making a claim that P(le glibau, mi, le ti ve ciksi) is True.  Usually this is translated into something very close to the template sentence: “English is the language used by me to express this explanation.”  However, even this is a departure from the pure Lojbanic meaning.  What we are really saying is simply that P of those values is true.  Other possible translations of sentence 1 are: “I am using English to convey this explanation.” and “This explanation is written by me in English.”  In English, these sentences have different subjects, objects, and verbs, but in the Lojban what we are saying is simply that those objects satisfy P.
+
+
+What other meanings orbit {bangu}?  Probably the second most important are the nouns associated with it.  When used with structure words called descriptors (and sometimes other particles), bangu forms a noun phrase that refers to objects related to its meaning.  How are the related?  Through the truth-function P!  (A complete account of the various descriptors is beyond the scope of the present section; we will leave the subtleties for another time.)
+
+
+In somewhat more detail, descriptors are used to refer to objects which could appear in one of the argument slots of P such that, combined with some other values for the other arguments, P evaluates to true.  This is very important to keep in mind when reading a template definition; in addition to indicating how the content word can be used as a verb, it also tells you how it can be used as a noun.
+
+
+For {bangu}, these noun phrases are relatively straightforward: the first one is a language, the second one is a language user, and the third is something which is expressed in language.  In fact, using different descriptors combined with other particles, we can get even more mileage out of {bangu} than that: {lei se bangu} could refer to a community of speakers; {lo’e bangu} to a typical language; and {lo ro ka’e te bangu} to all ideas which is it theoretically possible to communicate using language, whether or not anyone has ever or will ever speak them or even whether the language exists!
+
+
+These noun phrases are at least as important as the more readily apparent verb form of a content word, and keeping that mind can sometimes demystify the choice of definition for a word.
